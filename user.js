@@ -1,0 +1,1 @@
+/home/maxine/.var/app/app.zen_browser.zen/.zen/btx985kq.Default (release)/user.js
