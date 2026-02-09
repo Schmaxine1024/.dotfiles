@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="lukerandall"
+ZSH_THEME="kphoen"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -100,13 +100,13 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="sudo vim /home/maxine/.zshrc"
-alias ohmyzsh="sudo vim home/maxine/.oh-my-zsh"
+alias zshconfig="sudo vim ~/.zshrc"
+alias ohmyzsh="sudo vim ~/.oh-my-zsh"
 fortune
 
 alias weather='curl "wttr.in/Chicago"'
-alias dotfiles='nvim /home/maxine/.dotfiles'
-source /home/maxine/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias dotfiles='nvim ~/.dotfiles'
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Created by `pipx` on 2026-02-02 16:47:10
-export PATH="$PATH:/home/maxine/.local/bin"
+export PATH="$PATH:~/.local/bin"
