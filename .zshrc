@@ -105,7 +105,12 @@ alias ohmyzsh="sudo vim ~/.oh-my-zsh"
 fortune
 
 alias weather='curl "wttr.in/Chicago"'
-alias dotfiles='nvim ~/.dotfiles'
+alias dotfiles='cd ~/.dotfiles/ ; n'
+alias fixinternet='sudo nvim "/etc/NetworkManager/system-connections/New Kimball.nmconnection"'
+alias n='nvim'
+alias df='duf'
+alias q='exit'
+alias betterdiscord='betterdiscordctl --d-install flatpak install'
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Created by `pipx` on 2026-02-02 16:47:10
